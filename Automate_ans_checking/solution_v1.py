@@ -59,3 +59,10 @@ for line in sys.stdin:
             Score+=1
             
 print(Score)
+
+
+#I didn't knew there was this eval function in python which can solve this expressions in a snap 
+#but since in our question we are asked to treat assignment operator('=') as a comparison operator(Equals To '==') which checks whether the LHS value is equals to RHS as it make sense for kids
+#therefore In order to use eval function we need to replace '=' with '==' so that eval function can do equality check instead of assigning the value of RHS to LHS. 
+#https://docs.python.org/3/library/functions.html#eval
+
