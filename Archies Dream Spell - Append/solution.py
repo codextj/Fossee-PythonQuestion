@@ -57,14 +57,15 @@ def num2words(number):
             
         else:
             inWords = numInWordsDict[number[0]]
-            inWords = inWords.rstrip()
-
-
-        return(inWords) 
+        
+        return(inWords.rstrip()) 
   
 for i in range(10):
     number = input()
-    print(number,'\n',num2words(number))
+    print(number)
+    
+    inWords = num2words(number)
+    print(inWords)
        
     pwd = ''
     for w in inWords.split(' '):
