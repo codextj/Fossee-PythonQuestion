@@ -60,9 +60,7 @@ def num2words(number):
             inWords = inWords.rstrip()
 
 
-        return(inWords) # inWords.title()
-
-    return(in_wds)
+        return(inWords) 
   
 for i in range(10):
     number = input()
