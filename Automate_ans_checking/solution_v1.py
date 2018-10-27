@@ -66,3 +66,12 @@ print(Score)
 #therefore In order to use eval function we need to replace '=' with '==' so that eval function can do equality check instead of assigning the value of RHS to LHS. 
 #https://docs.python.org/3/library/functions.html#eval
 
+# python magic solution
+
+# score = 0
+# for i in range(10):
+#     line_blocks = input().replace(' = ',' == ').split()
+#     exprsn = ' '.join(line_blocks[:-1])
+#     if str(eval(exprsn)) == line_blocks[-1]:
+#         score+=1
+# print(score)
